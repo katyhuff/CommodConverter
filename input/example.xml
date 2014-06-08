@@ -7,8 +7,8 @@
 
   <archetypes>
     <spec><path>commodconverter</path><lib>CommodconverterFacility</lib><name>CommodconverterFacility</name></spec>
-    <spec><path>commodconverter</path><lib>CommodconverterRegion</lib><name>CommodconverterRegion</name></spec>
-    <spec><path>commodconverter</path><lib>CommodconverterInst</lib><name>CommodconverterInst</name></spec>
+    <spec><lib>agents</lib><name>NullRegion</name></spec>
+    <spec><lib>agents</lib><name>NullInst</name></spec>
   </archetypes>
 
   <facility>
@@ -21,7 +21,7 @@
   <region>
     <name>OneRegion</name>
     <config>
-      <CommodconverterRegion />
+      <NullRegion />
     </config>
     <institution>
       <name>OneInst</name>
@@ -32,7 +32,7 @@
         </entry>
       </initialfacilitylist>
       <config>
-        <CommodconverterInst />
+        <NullInst />
       </config>
     </institution>
   </region>
