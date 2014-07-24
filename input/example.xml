@@ -6,7 +6,7 @@
   </control>
 
   <archetypes>
-    <spec><path>commodconverter</path><lib>CommodconverterFacility</lib><name>CommodconverterFacility</name></spec>
+    <spec><path>commodconverter</path><lib>CommodConverter</lib><name>CommodConverter</name></spec>
     <spec><lib>agents</lib><name>NullRegion</name></spec>
     <spec><lib>agents</lib><name>NullInst</name></spec>
   </archetypes>
@@ -14,7 +14,7 @@
   <facility>
     <name>OneFacility</name>
     <config>
-      <CommodconverterFacility />
+      <CommodConverter />
     </config>
   </facility>
 
