@@ -1,4 +1,4 @@
-.. _hello_world:
+.. _commodconverter:
 
 Hello
 ==============
