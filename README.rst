@@ -1,9 +1,10 @@
 .. _commodconverter:
 
-Hello
+Deprecated
 ==============
 This page describes the CommodConverter. This is a library generated for use 
-with the Cyclus simulator.
+with the Cyclus simulator. **This reposiory is deprecated. It is now included
+in the Cycamore repository as the "Storage" facility.**
 
 
 To use this library, first make sure that you have the dependencies installed, 
